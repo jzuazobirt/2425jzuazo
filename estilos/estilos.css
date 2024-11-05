@@ -67,3 +67,21 @@ footer {
     background-color: #333;
     color: #fff;
 }
+/* Sección de fotos */
+.foto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.foto img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.foto p {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+}
