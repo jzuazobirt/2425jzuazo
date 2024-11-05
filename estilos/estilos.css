@@ -103,3 +103,19 @@ footer {
     font-style: italic;
     color: #555;
 }
+/* Estilos para los eventos */
+.evento {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.evento h2 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.evento p {
+    margin: 0;
+    color: #555;
+}
