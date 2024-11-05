@@ -33,6 +33,23 @@ main {
     padding: 20px;
 }
 
+/* Imágenes */
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Listado de eventos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
 /* Formulario de contacto */
 form {
     display: flex;
@@ -67,6 +84,7 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
 /* Sección de fotos */
 .foto {
     margin-bottom: 20px;
