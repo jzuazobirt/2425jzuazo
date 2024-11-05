@@ -119,3 +119,22 @@ footer {
     margin: 0;
     color: #555;
 }
+
+/* Estilos para las recetas */
+.receta {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.receta img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.receta p {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+}
