@@ -33,12 +33,7 @@ main {
     padding: 20px;
 }
 
-/* Imágenes */
-section img {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
+
 
 /* Listado de eventos */
 ul {
@@ -86,6 +81,13 @@ footer {
 }
 
 /* Sección de fotos */
+/* Imágenes */
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
 .foto {
     margin-bottom: 20px;
     text-align: center;
