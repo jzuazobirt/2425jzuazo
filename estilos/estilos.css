@@ -81,12 +81,20 @@ footer {
 }
 
 /* Sección de fotos */
-/* Imágenes */
+/* Imágenes section */
 section img {
     width: 10%;
     height: 10%;
     margin-top: 10px;
 }
+
+/* Imágenes div */
+div img {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+}
+
 
 .foto {
     margin-bottom: 20px;
