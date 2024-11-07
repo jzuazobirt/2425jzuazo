@@ -6,6 +6,14 @@ body {
     background-color: #f4f4f4;
 }
 
+h1, h2 {
+    text-align: center;
+    /* Opcional: agrega algo de margen para separar visualmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* Menú de navegación */
 header nav ul {
     display: flex;
