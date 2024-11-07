@@ -7,7 +7,8 @@ body {
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -40,34 +41,45 @@ header nav ul li a:hover {
 }
 
 /* Imagen de portada */
+.foto.portada {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .foto.portada img {
     width: 80%;
     height: auto;
     border-radius: 8px;
-    margin-top: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de eventos */
 .eventos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.eventos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.evento-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.eventos li {
     margin-bottom: 20px;
-    text-align: center;
 }
 
-.eventos img {
+.evento-item img {
     width: 40%;
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
 }
 
-.eventos p {
+.evento-item p {
     margin-top: 5px;
     font-style: italic;
     color: #555;
