@@ -46,12 +46,23 @@ ul li {
 }
 
 /*lista ordenada*/
+/* Centrar la lista ordenada */
 ol {
-    list-style-position: outside; /* Coloca los números a la izquierda */
-    margin-left: 20px; /* Ajusta la posición de toda la lista */
+    list-style-position: inside; /* Coloca los números dentro de la lista para alinearlos con el texto */
+    padding-left: 0; /* Elimina el padding por defecto */
+    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
+    margin-left: auto; /* Centra la lista en su contenedor */
+    margin-right: auto;
+    max-width: 600px; /* Establece un ancho máximo para la lista */
 }
-ol li {
-    margin-left: 20px; /* Ajusta este valor para mover el texto */
+
+/* Ajustar el estilo de los elementos de la lista */
+.receta ol {
+    padding-left: 20px; /* Ajusta el padding para dar espacio a los números y texto */
+}
+
+.receta ol li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
 }
 
 
