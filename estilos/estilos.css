@@ -48,7 +48,7 @@ header nav ul li a:hover {
 }
 
 .foto.portada img {
-    width: 80%;
+    width: 30%; /* Escala la imagen de portada al 30% del ancho */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -73,7 +73,7 @@ header nav ul li a:hover {
 }
 
 .evento-item img {
-    width: 40%;
+    width: 20%; /* Escala las imágenes de eventos al 20% del ancho */
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
