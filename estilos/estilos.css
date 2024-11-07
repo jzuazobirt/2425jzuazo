@@ -6,9 +6,8 @@ body {
     background-color: #f4f4f4;
 }
 
-h1, h2 {
+.centrar-encabezados h1, .centrar-encabezados h2 {
     text-align: center;
-    /* Opcional: agrega algo de margen para separar visualmente */
     margin-top: 20px;
     margin-bottom: 20px;
 }
