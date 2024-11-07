@@ -76,3 +76,14 @@ footer {
     background-color: #333;
     color: #fff;
 }
+.volver-inicio {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.volver-inicio:hover {
+    text-decoration: underline;
+}
