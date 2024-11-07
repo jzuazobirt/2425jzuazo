@@ -45,6 +45,16 @@ ul li {
     margin-bottom: 20px;
 }
 
+/*lista ordenada*/
+ol {
+    list-style-position: outside; /* Coloca los números a la izquierda */
+    margin-left: 20px; /* Ajusta la posición de toda la lista */
+}
+ol li {
+    margin-left: 20px; /* Ajusta este valor para mover el texto */
+}
+
+
 /* Formulario de contacto */
 form {
     display: flex;
