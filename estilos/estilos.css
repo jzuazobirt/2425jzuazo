@@ -40,6 +40,14 @@ header nav ul li a:hover {
     background-color: #555;
 }
 
+/* Clase general para imágenes */
+.foto-ajustable {
+    width: 100%; /* Ajusta este valor según el tamaño deseado */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /* Imagen de portada */
 .foto.portada {
     display: flex;
@@ -48,10 +56,8 @@ header nav ul li a:hover {
 }
 
 .foto.portada img {
-    width: 30%; /* Escala la imagen de portada al 30% del ancho */
+    width: 30%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de eventos */
@@ -70,13 +76,6 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-}
-
-.evento-item img {
-    width: 20%; /* Escala las imágenes de eventos al 20% del ancho */
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
 }
 
 .evento-item p {
