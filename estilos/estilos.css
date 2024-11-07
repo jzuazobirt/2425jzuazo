@@ -33,38 +33,27 @@ main {
     padding: 20px;
 }
 
-
-
-/* Listado de eventos */
-ul {
+/* Listas */
+ul, ol {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
-    margin-bottom: 20px;
-}
-
-/*lista ordenada*/
-/* Centrar la lista ordenada */
 ol {
-    list-style-position: inside; /* Coloca los números dentro de la lista para alinearlos con el texto */
-    padding-left: 0; /* Elimina el padding por defecto */
-    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
-    margin-left: auto; /* Centra la lista en su contenedor */
-    margin-right: auto;
-    max-width: 600px; /* Establece un ancho máximo para la lista */
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
-/* Ajustar el estilo de los elementos de la lista */
 .receta ol {
-    padding-left: 20px; /* Ajusta el padding para dar espacio a los números y texto */
+    padding-left: 20px;
 }
 
-.receta ol li {
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+ul li, ol li {
+    margin-bottom: 10px;
 }
-
 
 /* Formulario de contacto */
 form {
@@ -102,36 +91,26 @@ footer {
 }
 
 /* Sección de fotos */
-/* Imágenes section */
-section img {
-    width: 10%;
-    height: 10%;
-    margin-top: 10px;
-}
-
-
-
-
-.foto {
+.foto, .evento, .receta {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.foto img {
+section img, .foto img, .receta img {
     width: 20%;
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
 }
 
-.foto p {
+.foto p, .receta p, .evento p {
     margin-top: 5px;
     font-style: italic;
     color: #555;
 }
+
 /* Estilos para los eventos */
 .evento {
-    margin-bottom: 20px;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
@@ -139,28 +118,4 @@ section img {
 .evento h2 {
     margin-bottom: 5px;
     color: #333;
-}
-
-.evento p {
-    margin: 0;
-    color: #555;
-}
-
-/* Estilos para las recetas */
-.receta {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.receta img {
-    width: 20%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.receta p {
-    margin-top: 5px;
-    font-style: italic;
-    color: #555;
 }
