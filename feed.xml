@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>jzuazo neuws</title>
+    <title>Jzuazo News</title>
     <link>https://jzuazobirt.github.io/2425jzuazo/</link>
-    <description>Nire probatarako web-orria</description>
+    <description>Web de prueba de Jzuazo</description>
     <language>es-es</language>
     <managingEditor>jzuazo@birt.eus (Jesus Zuazo)</managingEditor>
-    
+
     <item>
-        <title>Lehenengo berria</title>
-        <link>https://github.com/jzuazobirt/2425jzuazo/main/images/pulpo.jpg</link>
-        <description>Lehenengoko argazkia </description>
+        <title>Lehenengo Berria</title>
+        <link>https://jzuazobirt.github.io/2425jzuazo/lehenengo-berria.html</link>
+        <description>Lehenengo argazkia.</description>
         <author>jzuazo@birt.eus</author>
+        <pubDate>Sat, 01 Feb 2025 10:00:00 +0100</pubDate>
+        <guid>https://jzuazobirt.github.io/2425jzuazo/lehenengo-berria.html</guid>
     </item>
 
     <item>
-        <title>Bigarren barria</title>
-        <link>https://github.com/jzuazobirt/2425jzuazo/main/images/fundador.jpg</link>
-        <description>bigarrena</description>
+        <title>Bigarren Berria</title>
+        <link>https://jzuazobirt.github.io/2425jzuazo/bigarren-berria.html</link>
+        <description>Bigarren argazkia.</description>
         <author>jzuazo@birt.eus</author>
+        <pubDate>Sun, 02 Feb 2025 12:00:00 +0100</pubDate>
+        <guid>https://jzuazobirt.github.io/2425jzuazo/bigarren-berria.html</guid>
     </item>
-    
+
 </channel>
 </rss>
