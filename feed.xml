@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-    <title>Jzuazo News</title>
+    <title>Jesus Zuazo News</title>
     <link>https://jzuazobirt.github.io/2425jzuazo/</link>
-    <description>Web de prueba de Jzuazo</description>
+    <description>Feed de Jesus</description>
     <language>es-es</language>
     <managingEditor>jzuazo@birt.eus (Jesus Zuazo)</managingEditor>
 
@@ -13,7 +13,7 @@
         <description>Lehenengo argazkia.</description>
         <author>jzuazo@birt.eus</author>
         <pubDate>Sat, 01 Feb 2025 10:00:00 +0100</pubDate>
-        <guid>https://jzuazobirt.github.io/2425jzuazo/index.html</guid>
+        <guid>https://jzuazobirt.github.io/2425jzuazo/imagenes/pastitas_te.jpg</guid>
     </item>
 
     <item>
@@ -22,7 +22,7 @@
         <description>Bigarren argazkia.</description>
         <author>jzuazo@birt.eus</author>
         <pubDate>Sun, 02 Feb 2025 12:00:00 +0100</pubDate>
-        <guid>https://jzuazobirt.github.io/2425jzuazo/index.html</guid>
+        <guid>https://jzuazobirt.github.io/2425jzuazo/imagenes/fundador.jpg</guid>
     </item>
 
 </channel>
