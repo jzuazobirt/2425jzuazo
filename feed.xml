@@ -1,1 +1,24 @@
-<!-->
+<!--><?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <!--
+    <item>...</item>
+    <item>...</item>
+    <item>...</item>
+    <item>...</item>
+    -->
+    <item>
+        <title>Mi primera noticia</title>
+        <link>https://xaurrutia.w3spaces.com/imagenes/imagen01.png</link>
+        <description>Os muestro mi primera imagen.</description>
+        <author>xaurrutia@birt.eus</author>
+    </item>
+
+    <item>
+        <title>Mi primera noticia</title>
+        <link>https://xaurrutia.w3spaces.com/imagenes/imagen01.png</link>
+        <description>Os muestro mi primera imagen.</description>
+        <author>xaurrutia@birt.eus</author>
+    </item>
+</channel>
+</rss>
